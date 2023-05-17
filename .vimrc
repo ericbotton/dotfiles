@@ -150,7 +150,7 @@ call plug#end()
 " => Nerd Tree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " let g:NERDTreeWinPos = "right"
-let NERDTreeShowHidden=0
+let NERDTreeShowHidden=1
 " let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
 map <leader>nn :NERDTreeToggle<cr>
@@ -244,3 +244,6 @@ set nobackup
 set nowritebackup
 set noundofile
 "set lines=43 columns=83 <-- gvim only
+
+let NERDTreeQuitOnOpen=1
+let g:nerdtree_tabs_open_on_gui_startup=0
